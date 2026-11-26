@@ -22,7 +22,7 @@ For the question 5 + 2, enter 7. The answer matches and the score increases acco
 
 ### Calculation details
 
-Use the provided answers in RAM. Question 1 reads 7 and awards one point. Question 2 reads 0 but expects 4, so the score falls to 0 and the question repeats. The next retry decrements the byte to FFH. Change 31H to 4 before retrying to advance.
+The preset answers are 7, 4, 10 and 2. The four correct responses add 1, 2, 3 and 4 points respectively, producing a score of 10 at 35H.
 
 ## Program operation
 
@@ -55,9 +55,5 @@ B -->|Results or control signals| E["Output: Inspect memory in debugger"]
 ```
 
 Results are available in memory without a display.
-
-## Technical limitations
-
-- The Q3 and Q4 text strings disagree with the answers tested by CJNE. The constants in the comparison control scoring.
 
 [Assembly source](source.asm)
