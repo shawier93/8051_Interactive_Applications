@@ -18,7 +18,7 @@ Demonstrate a registration menu that uses status answers and a month to select a
 
 ## Worked example
 
-A month calculation that adds 2 to November produces 13, then wraps to month 1: January. These archived classroom rules are not clinical scheduling guidance.
+A month calculation that adds 2 to November produces 13, then wraps to month 1: January. This is an illustrative month calculation, not a clinical scheduling rule.
 
 ### Calculation details
 
@@ -58,12 +58,4 @@ B -->|Results or control signals| E["Output: LCD and internal result bytes"]
 
 **Port registers:** `P0`, `P0.4`, `P0.6`, `P1`, `P1.2`, `P1.3`, `P1.4`, `P1.5`, `P1.6`, `P1.7`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

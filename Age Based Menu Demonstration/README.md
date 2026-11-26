@@ -6,7 +6,7 @@ Demonstrate a menu that selects a stored response according to an age band or an
 
 ## Implementations
 
-The memory version stores a response code. LCD versions display the archived messages, with different port assignments. The Proteus-derived version is another source listing for the same type of menu.
+The memory version stores a response code. LCD versions display the response messages, with different port assignments. 
 
 | Implementation | Input | Output |
 | --- | --- | --- |

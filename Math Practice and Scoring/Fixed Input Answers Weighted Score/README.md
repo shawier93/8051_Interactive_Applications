@@ -60,8 +60,4 @@ Results are available in memory without a display.
 
 - The Q3 and Q4 text strings disagree with the answers tested by CJNE. The constants in the comparison control scoring.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

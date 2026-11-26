@@ -56,12 +56,4 @@ B -->|Results or control signals| E["Output: LCD and internal result bytes"]
 
 **Port registers:** `P0`, `P0.0`, `P0.1`, `P0.2`, `P1.0`, `P1.3`, `P2`, `P2.0`, `P2.3`, `P2.4`, `P2.7`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.a51) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.a51)
